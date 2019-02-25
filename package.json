@@ -5,7 +5,7 @@
   "main": "./src/server/index",
   "scripts": {
     "test": "./node_modules/.bin/jest",
-    "start": "npm run styles:watch & npm run start:server:dev & npm run start:client:dev",
+    "start": "npm run styles & npm run start:server:dev & npm run start:client:dev",
     "start:server:dev": "./node_modules/.bin/ts-node ./src/server/index.ts",
     "start:client:dev": "./node_modules/.bin/webpack --config webpack/webpack.config.dev.js",
     "styles:watch": "./node_modules/.bin/gulp watch-sass",
