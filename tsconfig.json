@@ -1,11 +1,10 @@
 {
   "compilerOptions": {
     "jsx": "react",
-    "lib": ["es6", "dom"],
+    "lib": ["dom", "es7"],
     "rootDir": "src",
     "module": "commonjs",
-    "target": "es5",
-    "lib": ["es6", "dom"],
+    "target": "es2017",
     "sourceMap": true,
     "moduleResolution": "node",
     "noImplicitReturns": true,

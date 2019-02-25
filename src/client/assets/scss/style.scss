@@ -6,4 +6,6 @@
 @import 'common';
 
 // Components
-@import '../../containers/TodoAddForm/todo-add-form';
+@import '../../containers/ProviderWrapper/provider-wrapper';
+@import '../../containers/CurrencyPicker/currency-picker';
+@import '../../containers/CurrencyList/currency-list';

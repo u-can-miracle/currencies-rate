@@ -1,0 +1,10 @@
+@import '../../assets/scss/meta/mixins';
+
+.currency-container{
+	padding: 20px 15px;
+	@include clearfix();
+}
+
+.currency-controls{
+	float: left;
+}
